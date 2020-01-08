@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+#$ -cwd
+#$ -j y
+#$ -N JobName
+#$ -m es
+#$ -V
+#$ -M  youremail
+#$ -o ll_out
+#$ -S /bin/bash
+
+./name_of_script.py 
+
+
+
